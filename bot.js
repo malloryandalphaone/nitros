@@ -35,7 +35,7 @@ function spamla(){
 }
 
 	if (message.channel.id = "578676272612376607"){
-		if(message.content.startsWith("!nitro")){ // الامر الي تكتبه بالشات
+		if(message.content.startsWith("!nitro ")){ // الامر الي تكتبه بالشات
 		try{
 		var veri = message.content.toString();
 		var veriSn = veri.substring(10)
@@ -46,11 +46,11 @@ function spamla(){
 		}
 		
 		else{
-			message.reply("What is the second or second part of the text?");
+			message.reply("ما هو الجزء الثاني أو الثاني من النص");
 		}
 		}
 		catch(err){
-			message.channel.send("There was a technical error!");
+			message.channel.send("كان هناك خطأ فني!");
 		}
 		}
 		}
