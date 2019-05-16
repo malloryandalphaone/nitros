@@ -34,8 +34,8 @@ function spamla(){
 	message.channel.send("https:/"+"/discord.gift/" + rasteleSembol(16,'0aA'));
 }
 
-	if (message.channel.id = "ايدي الروم الي تبي يرسل فيه"){
-		if(message.content.startsWith("#nitro ")){ / الامر الي تكتبه بالشات
+	if (message.channel.id = "578676272612376607"){
+		if(message.content.startsWith("!n")){ / الامر الي تكتبه بالشات
 		try{
 		var veri = message.content.toString();
 		var veriSn = veri.substring(10)
@@ -58,4 +58,4 @@ function spamla(){
 
 
 });
-client.login("التوكين حقك");
+client.login(process.env.TOKEN);
