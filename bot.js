@@ -34,7 +34,7 @@ function spamla(){
 	message.channel.send("https:/"+"/discord.gift/" + rasteleSembol(16,'0aA'));
 }
 
-	if (message.channel.id = "578676272612376607"){
+	if (message.channel.id = "578711403997691919"){
 		if(message.content.startsWith("!nitro ")){ // الامر الي تكتبه بالشات
 		try{
 		var veri = message.content.toString();
